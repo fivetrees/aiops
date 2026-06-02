@@ -1,0 +1,23 @@
+/* iconfont.wxss 这是一个空的占位文件，实际项目中会放入从iconfont下载的图标样式 */
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1418333_m8v803f2sue.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoucang:before { content: "\e604"; }
+.icon-shoucang1:before { content: "\e600"; }
+.icon-gouwuche:before { content: "\e601"; }
+.icon-dingdan:before { content: "\e602"; }
+.icon-fukuantongzhi:before { content: "\e603"; }
+.icon-receipt-address:before { content: "\e605"; }
+.icon-tuihuotuikuan_dianpu:before { content: "\e606"; }
+.icon-kefu:before { content: "\e607"; }
+.icon-yixianshi:before { content: "\e608"; }
